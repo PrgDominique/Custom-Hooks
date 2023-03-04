@@ -26,5 +26,5 @@ export const Fetch = (url) => {
   }, [url])
 
  
-  return { showData, error, loading }
+  return { showData, error, loading, getData }
 }
