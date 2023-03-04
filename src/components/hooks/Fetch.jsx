@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 export const Fetch = (url) => {
-  const [showData, setShowData] = useState(null)
+  const [showData, setShowData] = useState({})
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(false)
 
